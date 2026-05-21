@@ -60,7 +60,7 @@ def mock_generate(row: pd.Series) -> Dict[str, str]:
         f"Made with {material.lower()}, this product focuses on {feature_sentence}. "
         "It is easy to position in a Shopify catalog and clear enough for customers to understand the value quickly."
     )
-    bullets = "\n".join(f"- {feature}" for feature in (features or ["Reliable everyday design", "Easy to merchandise", "Clear customer value"]))
+    bullets = " | ".join(features or ["Reliable everyday design", "Easy to merchandise", "Clear customer value"])
     seo = f"Shop {title}, a {material.lower()} {category.lower()} with {feature_sentence} for {audience}."
     return {
         "improved_title": improved_title[:120],
