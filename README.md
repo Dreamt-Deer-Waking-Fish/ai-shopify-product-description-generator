@@ -15,6 +15,8 @@ The project runs immediately in mock mode without an API key, which makes it eas
 
 ![Sample output preview](screenshots/sample_output_preview.png)
 
+![Enhanced products spreadsheet screenshot](screenshots/enhanced_products_spreadsheet_screenshot.png)
+
 | Asset | Link |
 | --- | --- |
 | Architecture diagram | [docs/architecture.md](docs/architecture.md) |
@@ -64,6 +66,7 @@ ai-shopify-product-description-generator/
     enhanced_products.csv
   screenshots/
     sample_output_preview.png
+    enhanced_products_spreadsheet_screenshot.png
   .env.example
 ```
 
