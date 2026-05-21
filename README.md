@@ -1,12 +1,26 @@
 # AI Shopify Product Description Generator
 
+![Project banner](assets/banner.png)
+
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![Output](https://img.shields.io/badge/Output-Enhanced%20CSV-green)
 ![Mode](https://img.shields.io/badge/Modes-Mock%20%2B%20OpenAI-orange)
+![Validate](https://github.com/Dreamt-Deer-Waking-Fish/ai-shopify-product-description-generator/actions/workflows/validate.yml/badge.svg)
 
 Client-style ecommerce automation for Shopify sellers who need consistent product titles, descriptions, bullet points, and SEO metadata from a product CSV.
 
 The project runs immediately in mock mode without an API key, which makes it easy to review in a public portfolio. When `OPENAI_API_KEY` is provided, the same workflow can use OpenAI mode for AI-generated product copy.
+
+## Visual Preview
+
+![Sample output preview](screenshots/sample_output_preview.png)
+
+| Asset | Link |
+| --- | --- |
+| Architecture diagram | [docs/architecture.md](docs/architecture.md) |
+| Workflow diagram | [docs/workflow.md](docs/workflow.md) |
+| Sample output guide | [docs/sample_outputs.md](docs/sample_outputs.md) |
+| Client delivery notes | [docs/client_delivery_notes.md](docs/client_delivery_notes.md) |
 
 ## Client Problem
 
@@ -36,11 +50,20 @@ ai-shopify-product-description-generator/
   README.md
   portfolio_description.md
   docs/
+    architecture.md
+    workflow.md
+    sample_outputs.md
+    client_delivery_notes.md
+  assets/
+    banner.png
+    architecture_diagram.png
+    workflow_diagram.png
   sample_data/
     products.csv
   output/
     enhanced_products.csv
   screenshots/
+    sample_output_preview.png
   .env.example
 ```
 
