@@ -1,17 +1,19 @@
-# Screenshot Guide
+# Screenshots
 
-Use these screenshots when presenting this project in an Upwork proposal or GitHub portfolio.
+This folder contains the generated output preview used in the main README.
 
-## Recommended Screenshots
+## Included
 
-1. Terminal showing `python main.py --mode mock` completing successfully.
-2. `sample_data/products.csv` showing raw product attributes.
-3. `output/enhanced_products.csv` open in Excel or Google Sheets.
-4. Close-up of generated title, description, bullet, and SEO columns.
-5. Project folder showing `.env.example`, `README.md`, `main.py`, `sample_data/`, and `output/`.
+| File | Purpose |
+| --- | --- |
+| [`sample_output_preview.png`](sample_output_preview.png) | Preview of the enhanced Shopify product copy CSV |
 
-## Presentation Notes
+## Related Visual Assets
 
-- Use mock mode for public screenshots unless the client approves API-backed examples.
-- Do not show real API keys, `.env` values, or private product data.
-- Crop spreadsheet screenshots so generated copy is readable.
+Project-level visuals are stored in [`../assets/`](../assets/):
+
+- `banner.png`
+- `architecture_diagram.png`
+- `workflow_diagram.png`
+
+No additional screenshots are required for the GitHub presentation. For an Upwork case study, optional real-world screenshots could be added later, such as the CSV opened in Excel or a terminal run screenshot.
